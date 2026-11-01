@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Carpetas de datos y logs generados
+data/
+/log/
+/logs/
+
+# Archivos generados
+*.xlsx
+*.log
+
+# PERO permitir los ejemplos (para que sí se suban)
+!examples/*.xlsx
+!examples/*.log
+
+# Configuración local
+.env
+.vscode/
