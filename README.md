@@ -8,24 +8,24 @@
 
 La estructura es relativa, de modo que funciona independientemente del sistema operativo. Cada funcionalidad vive en su propio módulo, y el flujo principal se orquesta en `main.py`.
 
-# Estructura del proyecto (v1.0)
-
+```text
 registro_de_ventas_semiauto/
 ├── tools/
-│ ├── __init__.py
-│ ├── func_center.py # Lógica principal (clase Producto, funciones)
-│ └── logs/
-│ ├── __init__.py
-│ └── logs_func.py # Configuración de logging
-├── data/ # Archivos Excel generados (no versionado)
-├── log/ # Archivos de log (no versionado)
-├── examples/ # Ejemplos de salida (Excel y log)
+│   ├── __init__.py
+│   ├── func_center.py          # Lógica principal (clase Producto, funciones)
+│   └── logs/
+│       ├── __init__.py
+│       └── logs_func.py        # Configuración de logging
+├── data/                       # Archivos Excel generados (no versionado)
+├── log/                        # Archivos de log (no versionado)
+├── examples/                   # Ejemplos de salida (Excel y log)
 ├── tests/
-│ ├── __init__.py
-│ └── test_code.py # Tests unitarios
-├── main.py # Punto de entrada
-├── README.md # Este archivo
-└── requirements.txt # Dependencias
+│   ├── __init__.py
+│   └── test_code.py            # Tests unitarios
+├── main.py                     # Punto de entrada
+├── README.md                   # Este archivo
+└── requirements.txt            # Dependencias
+```
 
 ## 2. Qué problema resuelve la v1.0
 
